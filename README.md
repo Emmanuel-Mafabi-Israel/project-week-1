@@ -1,14 +1,11 @@
-## Software Engineering, 
+## Software Engineering, **Author: Israel Mafabi Emmanuel**
 ### Week 1 Project, Language - JavaScript:
 Scripts Involved:
 1. student_grade_generator.js
 2. speed_detector.js
 3. net_pay.js
-4. bubble_sort.js
-5. staircase.js
-
-## Author,
-## **Author: Israel Mafabi Emmanuel**
+4. bubble_sort.js (Bonus Project)
+5. staircase.js (Bonus Project)
 
 ### Installation:
 - Clone this repository to your local machine.
@@ -17,7 +14,7 @@ Scripts Involved:
 `npm install readline-sync`
 - console_io.js - for readline-sync: functions, methods and  objects access
 
-## Scripts, Programs Explanation
+# Scripts, Programs Explanation
 ## **1. Student Grade Generator**
 This program calculates a student's grade based on their marks.
 It considers various grade ranges and provides corresponding results.
