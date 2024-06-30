@@ -1,5 +1,5 @@
-Software Engineering, Israel Mafabi Emmanuel
-Week 1 Project:
+# Software Engineering, Israel Mafabi Emmanuel
+## Week 1 Project:
 
 Scripts Involved, Language - JavaScript:
 - student_grade_generator.js
@@ -9,7 +9,7 @@ Scripts Involved, Language - JavaScript:
 - staircase.js
 
 Dependencies:
-## Readline Node Module Installation
+### Readline Node Module Installation
 ```sh
 npm install lreadline-sync
 ```
