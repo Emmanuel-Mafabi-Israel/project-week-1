@@ -1,5 +1,5 @@
-<h1> Software Engineering, Israel Mafabi Emmanuel </h1>
-<h3> Week 1 Project: </h3>
+# Software Engineering, Israel Mafabi Emmanuel
+## Week 1 Project:
 
 Scripts Involved, Language - JavaScript:
 - student_grade_generator.js
@@ -11,7 +11,7 @@ Scripts Involved, Language - JavaScript:
 ## Dependencies:
 ### Readline Node Module Installation
 ```sh
-npm install readline-sync
+npm install lreadline-sync
 ```
 - Node Modules  - readline-sync module,
 - console_io.js - for readline-sync: functions, methods and  objects access
