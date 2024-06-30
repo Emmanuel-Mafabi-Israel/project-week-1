@@ -45,8 +45,8 @@ It considers various grade ranges and provides corresponding results.
 
 ### Example:
 ```sh
-node student_grade_generator.js
- :Student's Marks: 100
+$node student_grade_generator.js
+ :Student/'s Marks: 100
  Result: A
 ```
 
