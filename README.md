@@ -1,4 +1,4 @@
-## Software Engineering Projects **Author: Israel Mafabi Emmanuel**
+## Software Engineering Projects [**Author: Israel Mafabi Emmanuel**]
 ### Week 1 Project, Language - JavaScript:
 Scripts Involved:
 1. student_grade_generator.js
