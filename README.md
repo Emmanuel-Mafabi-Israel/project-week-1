@@ -32,11 +32,11 @@ It considers various grade ranges and provides corresponding results.
 
 *Computed Output*
 - The program will display the corresponding grade based on the following ranges:
-* A: 80-100
-* B: 60-79
-* C: 50-59
-* D: 40-49
-* E: 0-39
+* - A: 80-100
+* - B: 60-79
+* - C: 50-59
+* - D: 40-49
+* - E: 0-39
 
 ### Key Components: Variables
 *Gross Salary:* The User Provides their gross salary.
