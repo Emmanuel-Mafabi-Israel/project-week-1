@@ -10,6 +10,8 @@ Scripts Involved, Language - JavaScript:
 
 Dependencies:
 ### Readline Node Module Installation
+[Npm linebyline]
+
 ```sh
 npm install lreadline-sync
 ```
