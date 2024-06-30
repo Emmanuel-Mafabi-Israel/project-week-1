@@ -15,7 +15,7 @@ Scripts Involved:
 - console_io.js - for readline-sync: functions, methods and  objects access
 
 ### Scripts Explanation
-**Net Pay Calculator Program**
+### **Net Pay Calculator Program**
 The program calculates the net annual pay based on the user's
 gross salary, considering various deductions and tax rates.
 
