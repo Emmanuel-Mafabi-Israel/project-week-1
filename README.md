@@ -15,8 +15,8 @@ Scripts Involved:
 `npm install readline-sync`
 - console_io.js - for readline-sync: functions, methods and  objects access
 
-### Scripts Explanation
-### **1. Student Grade Generator**
+## Scripts, Programs Explanation
+## **1. Student Grade Generator**
 This program calculates a student's grade based on their marks.
 It considers various grade ranges and provides corresponding results.
 
@@ -32,20 +32,25 @@ It considers various grade ranges and provides corresponding results.
 
 *Computed Output*
 - The program will display the corresponding grade based on the following ranges:
-* - A: 80-100
-* - B: 60-79
-* - C: 50-59
-* - D: 40-49
-* - E: 0-39
+* A: 80-100
+* B: 60-79
+* C: 50-59
+* D: 40-49
+* E: 0-39
 
-### Key Components: Variables
-*Gross Salary:* The User Provides their gross salary.
-*NSSF Deductions:* Calculated based on income thresholds.
-*Tax Rate Computation:* Determines the P.A.Y.E based on taxable amount.
-*NHIF Deductions:* 2.5% of gross salary.
-*Housing Levy:* 18% of gross salart - in a year.
+### Key Components:
+*Determine Grade Function:* Determines the grade based on the provided marks.
+*Input Validation:* Checks if the input is a valis numerical value.
+*Error Handling:* Provides informative error messages for invalid input or out-of-range values.
 
-### **4. Net Pay Calculator Program**
+### Example:
+```sh
+node student_grade_generator.js
+ :Student's Marks: 100
+ Result: A
+```
+
+## **4. Net Pay Calculator Program**
 The program calculates the net annual pay based on the user's
 gross salary, considering various deductions and tax rates.
 
