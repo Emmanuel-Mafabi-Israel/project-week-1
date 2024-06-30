@@ -1,4 +1,4 @@
-## Software Engineering, Israel Mafabi Emmanuel
+<h1> Software Engineering, Israel Mafabi Emmanuel </h1>
 ### Week 1 Project:
 
 Scripts Involved, Language - JavaScript:
