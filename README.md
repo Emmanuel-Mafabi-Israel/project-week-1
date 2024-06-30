@@ -1,6 +1,5 @@
 # Software Engineering, Israel Mafabi Emmanuel
 ## Week 1 Project, Language - JavaScript:
-
 Scripts Involved:
 - student_grade_generator.js
 - speed_detector.js
