@@ -8,11 +8,10 @@ Scripts Involved:
 - staircase.js
 
 ### Dependencies:
-*Readline Node Module Installation*
-```sh
-npm install lreadline-sync
-```
-- Node Modules  - readline-sync module,
+*Dependencies Installation*
+- Clone this repository to your local machine.
+- Make sure you have Node.js
+- Node Module: readline-sync module, `npm install readline-sync`
 - console_io.js - for readline-sync: functions, methods and  objects access
 
 ### Scripts Explanation
@@ -20,5 +19,7 @@ Net Pay Calculator Program
 The program calculates the net annual pay based on the user's
 gross salary, considering various deductions and tax rates.
 
-## Usage
-#### installation
+### Usage
+*installation*
+- Clone this repository to your local machine.
+- Make sure you have Node.js
