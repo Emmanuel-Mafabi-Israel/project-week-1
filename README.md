@@ -11,15 +11,18 @@ Scripts Involved:
 *Dependencies Installation*
 - Clone this repository to your local machine.
 - Make sure you have Node.js
-- Node Module: readline-sync module, `npm install readline-sync`
+- Node Module: readline-sync module:
+`npm install readline-sync`
 - console_io.js - for readline-sync: functions, methods and  objects access
 
 ### Scripts Explanation
-### **Net Pay Calculator Program**
+### **1. Net Pay Calculator Program**
 The program calculates the net annual pay based on the user's
 gross salary, considering various deductions and tax rates.
 
 ### Usage
-*installation*
-- Clone this repository to your local machine.
-- Make sure you have Node.js
+*Run the Program*
+- Open a terminal or command prompt.
+- Navigate to the project directory.
+- Run the following command: 
+`node salary_calculator.js`
