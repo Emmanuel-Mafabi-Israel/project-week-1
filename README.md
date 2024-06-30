@@ -10,8 +10,10 @@ Scripts Involved:
 ### Installation:
 - Clone this repository to your local machine.
 - Make sure you have **Node.js** installed.
-- Node Module: readline-sync module:
-`npm install readline-sync`
+- Node Module in Use **readline-sync**:
+```sh
+npm install readline-sync
+```
 - console_io.js - for readline-sync: functions, methods and  objects access
 
 # Scripts, Programs Explanation
