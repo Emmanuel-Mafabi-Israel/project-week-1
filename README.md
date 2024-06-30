@@ -47,8 +47,8 @@ It considers various grade ranges and provides corresponding results.
 ### Example:
 ```sh
 $ node grade_calculator.js
-:Student's Marks: 75
-Result: B
+:Student's Marks: 100
+Result: A
 ```
 
 ## **2. Speed Detector Program**
