@@ -8,10 +8,8 @@ Scripts Involved, Language - JavaScript:
 - bubble_sort.js
 - staircase.js
 
-Dependencies:
+## Dependencies:
 ### Readline Node Module Installation
-[Npm linebyline]
-
 ```sh
 npm install lreadline-sync
 ```
