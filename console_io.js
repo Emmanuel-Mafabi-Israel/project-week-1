@@ -13,6 +13,6 @@ const console_input = readline.createInterface({
 });
 
 module.exports = {
-    // For exposing our depended functions
+    // For exposing our depended functions, methods and objects
     console_input
 };

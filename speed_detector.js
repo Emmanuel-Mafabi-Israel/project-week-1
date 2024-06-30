@@ -19,7 +19,7 @@ function detect_speed(vehicle_speed = 70.0) {
         if(demerit_points === 0) {
             return ` No demerit Points given, Speed equals limit: Points: ${demerit_points}.`;
         } else {
-            return ` No demerit Points given, Speed is below limit: Points: ${demerit_points}.`;
+            return ` No demerit Points given, Speed is below limit: Keep your license.`;
         }
     } else if(demerit_points > 12) {
         // we should error out,
@@ -27,16 +27,20 @@ function detect_speed(vehicle_speed = 70.0) {
         // invalid.
         return ` License Suspended: Points: ${demerit_points}.`;
     } else {
-        if(isNaN(demerit_points)) {
-            return ` Invalid entry given. Error - check the vehicle speed value: ${vehicle_speed}.`;
-        } else {
-            return ` Points assigned: ${demerit_points}.`;
-        }
+        // return the points to the user!
+        return ` Points assigned: ${demerit_points}.`;
     }
 }
 
 // we prompt the user for input
 console_io.console_input.question(` :Vehicle's Speed: `, (speed) => {
-    console.log(` Your Output: ${detect_speed(speed)}`);
+    // but before proceeding further, we need to evaluate
+    // the input the user presents -> is it a numerical value
+    // if not - we need to error out!
+    if(isNaN(speed)) {
+        console.log(` Invalid entry given. Error - check the vehicle speed value: ${vehicle_speed}.`);
+    } else {
+        console.log(` Your Output: ${detect_speed(speed)}`);
+    }
     console_io.console_input.close();
 });
