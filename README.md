@@ -41,7 +41,7 @@ It considers various grade ranges and provides corresponding results.
 
 ### Key Components:
 *Determine Grade Function:* Determines the grade based on the provided marks.
-*Input Validation:* Checks if the input is a valis numerical value.
+*Input Validation:* Checks if the input is a valid numerical value.
 *Error Handling:* Provides informative error messages for invalid input or out-of-range values.
 
 ### Example:
