@@ -115,5 +115,4 @@ $ node net_pay.js
 Enter Your Gross Salary[numerical values only]: 12,000,000
 Debug_info: NSSF[2160], TA[11997840], PAYE[4199244], HousingLevy[2160000]
 Your Net annual Pay is: 5338596
-Result: B
 ```
