@@ -1,6 +1,4 @@
-<style>h1,h2,h3,h4 { border-bottom: 0; } </style>
-
-## Software Engineering, Israel Mafabi Emmanuel
+## Software Engineering, 
 ### Week 1 Project, Language - JavaScript:
 Scripts Involved:
 1. student_grade_generator.js
@@ -9,8 +7,10 @@ Scripts Involved:
 4. bubble_sort.js
 5. staircase.js
 
-### Dependencies:
-*Dependencies Installation*
+## Author,
+## **Author: Israel Mafabi Emmanuel**
+
+### Installation:
 - Clone this repository to your local machine.
 - Make sure you have **Node.js** installed.
 - Node Module: readline-sync module:
@@ -52,7 +52,40 @@ $ node grade_calculator.js
 Result: B
 ```
 
-## **4. Net Pay Calculator Program**
+## **2. Speed Detector Program**
+The Speed Detector Program calculates demerit points based on a vehicle's speed relative to the reference speed. It provides information about speeding violation and potential license suspension.
+
+### Program Logic
+*Reference Speed:* The reference speed is set at 70km/h.
+*Speed change calculation:* The program calculates the speed change as the difference between the vehicle's speed and the reference speed: `speed_change = vehicl_speed - base_speed`.
+*Demerit Points:* Demerit points are assigned based on the speed change:
+- If speed_change is less than or equal to 0, no demerit points are given.
+- If speed_change is exactly 0, the message indicates that the speed equals the limit.
+- If speed_change is negative (below the limit), the message advises the driver to keep their license.
+- If speed_change is positive, demerit points are assigned:  demerit_points = speed_change / 5.
+- If demerit_points exceed 12, the license is suspended.
+
+### Usage
+*Run the Program*
+- Open a terminal or command prompt.
+- Navigate to the project directory.
+- Run the following command: 
+`node speed_detector.js`
+
+*Required Input*
+- Enter the Vehicle's marks (numerical values only).
+
+*Computed Output*
+- The program will display the demerit points or relevant messages based on the speed.
+
+### Example:
+```sh
+$ node speed_detector.js
+:Vehicle's Speed: 100
+Points assigned: 6
+```
+
+## **3. Net Pay Calculator Program**
 The program calculates the net annual pay based on the user's
 gross salary, considering various deductions and tax rates.
 
