@@ -1,3 +1,5 @@
+<style>h1,h2,h3,h4 { border-bottom: 0; } </style>
+
 ## Software Engineering, Israel Mafabi Emmanuel
 ### Week 1 Project, Language - JavaScript:
 Scripts Involved:
@@ -45,9 +47,9 @@ It considers various grade ranges and provides corresponding results.
 
 ### Example:
 ```sh
-$node student_grade_generator.js
- :Student/'s Marks: 100
- Result: A
+$ node grade_calculator.js
+:Student's Marks: 75
+Result: B
 ```
 
 ## **4. Net Pay Calculator Program**
