@@ -1,5 +1,5 @@
 <h1> Software Engineering, Israel Mafabi Emmanuel </h1>
-### Week 1 Project:
+<h3> Week 1 Project: </h3>
 
 Scripts Involved, Language - JavaScript:
 - student_grade_generator.js
