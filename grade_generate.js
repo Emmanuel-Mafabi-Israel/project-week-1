@@ -12,16 +12,17 @@ function determine_grade(_marks_ = 100) {
     // default value = 100 A
     if(isNaN(_marks_)) {
         // we check if our marks is a valid number
+        // A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
         return ` Error: Expected a numerical value. ${_marks_}`;
-    } else if( _marks_ <= 100 && _marks_ > 79) {
+    } else if( _marks_ <= 100.0 && _marks_ > 80.0) {
         return ` Result: A`;
-    } else if(_marks_ <= 79 && _marks_ >= 60) {
+    } else if(_marks_ <= 80.0 && _marks_ >= 60.0) {
         return ` Result: B`;
-    } else if(_marks_ <= 59 && _marks_ >= 49) {
+    } else if(_marks_ < 60.0 && _marks_ > 50.0) {
         return ` Result: C`;
-    } else if(_marks_ < 49 && _marks_ >= 40) {
+    } else if(_marks_ <= 50.0 && _marks_ >= 40.0 ) {
         return ` Result: D`;
-    } else if(_marks_ < 40 && _marks_ >= 0) {
+    } else if(_marks_ < 40.0 && _marks_ >= 0) {
         return ` Result: E`;
     } else {
         return ` Error: Value Out of Range!, marks range: (0 - 100). issued value: ${_marks_}`;
