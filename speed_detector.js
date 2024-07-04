@@ -39,7 +39,7 @@ console_io.console_input.question(` :Vehicle's Speed: `, (_speed_) => {
     // if not - we need to error out!
     let speed = parseFloat(_speed_);
     if(isNaN(speed)) {
-        console.log(` Invalid entry given. Error - check the vehicle speed value: ${vehicle_speed}.`);
+        console.log(` Invalid entry given. Error - check the vehicle speed value: ${speed}.`);
     } else {
         console.log(` Your Output: ${detect_speed(speed)}`);
     }
