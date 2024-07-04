@@ -13,13 +13,14 @@ function detect_speed(vehicle_speed = 70.0) {
     // 0 speed change -> [vehicle_speed - base_speed]
     let speed_change = vehicle_speed - base_speed;
     let demerit_points = speed_change/5;
+
     if(demerit_points <= 0) {
         // the vehicle's speed is less than or equal to the 
         // reference speed.
-        if(demerit_points === 0) {
-            return ` No demerit Points given, Speed equals limit: Points: ${demerit_points}.`;
+        if(demerit_points < 0) {
+            return ` No demerit Points given, There's no negative speed!`;
         } else {
-            return ` No demerit Points given, Speed is below limit: Keep your license.`;
+            return ` No demerit Points given, Speed equals limit: Points: ${demerit_points}.`;
         }
     } else if(demerit_points > 12) {
         // we should error out,
@@ -33,15 +34,15 @@ function detect_speed(vehicle_speed = 70.0) {
 }
 
 // we prompt the user for input
-console_io.console_input.question(` :Vehicle's Speed: `, (_speed_) => {
+console_io.console_input.question(` :Vehicle's Speed: `, (speed) => {
     // but before proceeding further, we need to evaluate
     // the input the user presents -> is it a numerical value
     // if not - we need to error out!
-    let speed = parseFloat(_speed_);
     if(isNaN(speed)) {
         console.log(` Invalid entry given. Error - check the vehicle speed value: ${speed}.`);
     } else {
-        console.log(` Your Output: ${detect_speed(speed)}`);
+        let _speed_ = parseFloat(speed);
+        console.log(` Your Output: ${detect_speed(_speed_)}`);
     }
     console_io.console_input.close();
 });

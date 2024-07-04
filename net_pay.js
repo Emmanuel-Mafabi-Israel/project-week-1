@@ -143,12 +143,12 @@ function get_net_pay(gross_salary = 0) {
 }
 
 console_io.console_input.question(` Enter Your Gross Salary[numerical values only]: `, function(_gross_income_) {
-    let income = parseFloat(_gross_income_);
-
-    if(isNaN(income) || income < 0) {
-        console.log(` Invalid input: ${income}, expected a numerical input.`);
+    if(isNaN(_gross_income_) || _gross_income_ <= 0) {
+        console.log(` Invalid input: ${income}, expected a valid numerical input.`);
     } else {
-        // we perform the calculation
+        // we perform the calculation, but first we need to
+        // convert the string input to a floating point value
+        let income = parseFloat(_gross_income_);
         console.log(` Your Net Pay is: ksh ${get_net_pay(income)}, without insurance relief.`);
     }
     // after that we close the stream
