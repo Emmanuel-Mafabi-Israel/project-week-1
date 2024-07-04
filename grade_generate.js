@@ -32,6 +32,7 @@ function determine_grade(_marks_ = 100) {
 // we prompt the user for input - function call for prompting user for 
 // input via the console interface
 console_io.console_input.question(` :Student's Marks: `, (marks) => {
-    console.log(determine_grade(marks));
+    let student_marks = parseFloat(marks);
+    console.log(determine_grade(student_marks));
     console_io.console_input.close();
 });

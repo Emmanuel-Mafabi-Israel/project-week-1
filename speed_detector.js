@@ -4,9 +4,9 @@
     By Israel Mafabi Emmanuel
 */
 
-const console_io = require('./console_io')
-const base_speed = 70.0; // reference speed, 70Km/h
+const console_io = require('./console_io');
 
+const base_speed = 70.0; // reference speed, 70Km/h
 function detect_speed(vehicle_speed = 70.0) {
     // giving it a default value of 70,
     // if there's no input it should point to 
@@ -33,10 +33,11 @@ function detect_speed(vehicle_speed = 70.0) {
 }
 
 // we prompt the user for input
-console_io.console_input.question(` :Vehicle's Speed: `, (speed) => {
+console_io.console_input.question(` :Vehicle's Speed: `, (_speed_) => {
     // but before proceeding further, we need to evaluate
     // the input the user presents -> is it a numerical value
     // if not - we need to error out!
+    let speed = parseFloat(_speed_);
     if(isNaN(speed)) {
         console.log(` Invalid entry given. Error - check the vehicle speed value: ${vehicle_speed}.`);
     } else {
