@@ -56,7 +56,7 @@ The Speed Detector Program calculates demerit points based on a vehicle's speed 
 
 ### Program Logic
 *Reference Speed:* The reference speed is set at 70km/h.
-*Speed change calculation:* The program calculates the speed change as the difference between the vehicle's speed and the reference speed: `speed_change = vehicl_speed - base_speed`.
+*Speed change calculation:* The program calculates the speed change as the difference between the vehicle's speed and the reference speed: `speed_change = vehicle_speed - base_speed`.
 *Demerit Points:* Demerit points are assigned based on the speed change:
 - If speed_change is less than or equal to 0, no demerit points are given.
 - If speed_change is exactly 0, the message indicates that the speed equals the limit.
@@ -93,7 +93,7 @@ gross salary, considering various deductions and tax rates.
 - Open a terminal or command prompt.
 - Navigate to the project directory.
 - Run the following command: 
-`node salary_calculator.js`
+`node net_pay.js`
 
 *Required Input*
 - Enter your gross salary (numerical values only).
